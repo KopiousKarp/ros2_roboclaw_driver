@@ -803,7 +803,7 @@ uint8_t RoboClaw::readByteWithTimeout() {
   ufd[0].fd = device_port_;
   ufd[0].events = POLLIN;
 
-  int retval = poll(ufd, 1, 11);
+  int retval = poll(ufd, 1, 200); // Jevgeni 25.04.2023 11 --> 200
   if (retval < 0) {
     RCUTILS_LOG_ERROR("[RoboClaw::readByteWithTimeout] Poll failed (%d) %s",
                       errno, strerror(errno));
