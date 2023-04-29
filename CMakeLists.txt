@@ -64,11 +64,18 @@ ament_target_dependencies(
 #)
 
 # Function rosidl_target_interfaces() is replaced by the code below:
-# This will create a target called ros2_roboclaw_driver_node__rosidl_typesupport_cpp using rosidl_get_typesupport_target, 
+# This will create a target called ros2_roboclaw_driver_node__rosidl_typesupport_cpp 
+# using rosidl_get_typesupport_target, 
 # and then link the ros2_roboclaw_driver_node target to it using target_link_libraries. 
-# This will ensure that the appropriate ROS 2 message and service typesupport libraries are linked with the ros2_roboclaw_driver_node target.
-rosidl_get_typesupport_target(ros2_roboclaw_driver_node__rosidl_typesupport_cpp ${PROJECT_NAME} "rosidl_typesupport_cpp")
-target_link_libraries(ros2_roboclaw_driver_node ${ros2_roboclaw_driver_node__rosidl_typesupport_cpp})
+# This will ensure that the appropriate ROS 2 message and service typesupport libraries 
+# are linked with the ros2_roboclaw_driver_node target.
+rosidl_get_typesupport_target(ros2_roboclaw_driver_node__rosidl_typesupport_cpp 
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
+
+target_link_libraries(ros2_roboclaw_driver_node 
+  ${ros2_roboclaw_driver_node__rosidl_typesupport_cpp}
+)
 # -----
 
 # Install config files.
