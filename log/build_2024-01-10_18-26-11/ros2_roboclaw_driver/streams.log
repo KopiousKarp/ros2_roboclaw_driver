@@ -1,0 +1,264 @@
+[0.029s] Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+[0.339s] -- The C compiler identification is GNU 11.3.0
+[0.520s] -- The CXX compiler identification is GNU 11.3.0
+[0.538s] -- Detecting C compiler ABI info
+[0.675s] -- Detecting C compiler ABI info - done
+[0.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.692s] -- Detecting C compile features - done
+[0.697s] -- Detecting CXX compiler ABI info
+[0.843s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.864s] -- Detecting CXX compile features
+[0.865s] -- Detecting CXX compile features - done
+[0.898s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.174s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.351s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.454s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.467s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.491s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.608s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.761s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.879s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.994s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.004s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.232s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.285s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.393s] -- Looking for pthread.h
+[2.523s] -- Looking for pthread.h - found
+[2.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.672s] -- Found Threads: TRUE  
+[2.865s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.894s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.395s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.128s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.134s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.171s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.171s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.171s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.198s] -- Found PythonExtra: .so  
+[4.257s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.320s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.332s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.334s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_cpp>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_introspection_cpp>;/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_c;/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_py
+[4.334s] -- Configured cppcheck exclude dirs and/or files: 
+[4.348s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.348s] -- Configured cpplint exclude dirs and/or files: 
+[4.351s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.355s] -- Added test 'lint_cmake' to check CMake code style
+[4.358s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.371s] -- Added test 'uncrustify' to check C / C++ code style
+[4.372s] -- Configured uncrustify additional arguments: 
+[4.373s] -- Added test 'xmllint' to check XML markup files
+[4.378s] -- Configuring done
+[4.442s] -- Generating done
+[4.449s] -- Build files have been written to: /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver
+[4.464s] Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+[4.466s] Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+[4.535s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.551s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.565s] [  4%] Built target ament_cmake_python_symlink_ros2_roboclaw_driver
+[4.897s] running egg_info
+[4.898s] creating ros2_roboclaw_driver.egg-info
+[4.899s] writing ros2_roboclaw_driver.egg-info/PKG-INFO
+[4.899s] writing dependency_links to ros2_roboclaw_driver.egg-info/dependency_links.txt
+[4.899s] writing top-level names to ros2_roboclaw_driver.egg-info/top_level.txt
+[4.899s] writing manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'
+[4.904s] reading manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'
+[4.904s] writing manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'
+[4.945s] [  4%] Built target ament_cmake_python_build_ros2_roboclaw_driver_egg
+[5.081s] [  4%] Built target ros2_roboclaw_driver__cpp
+[5.092s] [  6%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_c.dir/rosidl_generator_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__functions.c.o[0m
+[5.095s] [  9%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_c.dir/rosidl_generator_c/ros2_roboclaw_driver/srv/detail/reset_encoders__functions.c.o[0m
+[5.098s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.098s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.099s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.199s] [ 18%] [32m[1mLinking C shared library libros2_roboclaw_driver__rosidl_generator_c.so[0m
+[5.266s] [ 18%] Built target ros2_roboclaw_driver__rosidl_generator_c
+[5.284s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.287s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.287s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.709s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_roboclaw_driver/msg/robo_claw_status__type_support.cpp.o[0m
+[5.719s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_roboclaw_driver/srv/reset_encoders__type_support.cpp.o[0m
+[5.744s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_roboclaw_driver/msg/detail/dds_fastrtps/robo_claw_status__type_support.cpp.o[0m
+[5.756s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_roboclaw_driver/srv/detail/dds_fastrtps/reset_encoders__type_support.cpp.o[0m
+[5.783s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.cpp.o[0m
+[5.826s] [ 39%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_roboclaw_driver/msg/robo_claw_status__type_support.cpp.o[0m
+[5.857s] [ 41%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.c.o[0m
+[5.903s] [ 44%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_roboclaw_driver/srv/reset_encoders__type_support.cpp.o[0m
+[5.932s] [ 46%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.c.o[0m
+[5.964s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support_c.cpp.o[0m
+[5.979s] [ 51%] [32m[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_c.so[0m
+[6.012s] [ 53%] [32m[1mLinking C shared library libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so[0m
+[6.087s] [ 53%] Built target ros2_roboclaw_driver__rosidl_typesupport_c
+[6.096s] [ 53%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_c
+[6.108s] [ 55%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.cpp.o[0m
+[6.121s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support_c.cpp.o[0m
+[6.294s] [ 60%] [32m[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_cpp.so[0m
+[6.409s] [ 60%] Built target ros2_roboclaw_driver__rosidl_typesupport_cpp
+[6.462s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/motor_driver.cpp.o[0m
+[6.468s] [ 65%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/motor_driver_node.cpp.o[0m
+[6.654s] [ 67%] [32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/roboclaw.cpp.o[0m
+[6.731s] [ 69%] [32m[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.827s] [ 72%] [32m[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so[0m
+[6.912s] [ 74%] [32m[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so[0m
+[6.926s] [ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp
+[7.015s] [ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c
+[7.041s] [ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp
+[7.077s] [ 74%] Built target ros2_roboclaw_driver
+[7.118s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.054s] [ 76%] Built target ros2_roboclaw_driver__py
+[8.092s] [ 79%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_py.dir/rosidl_generator_py/ros2_roboclaw_driver/msg/_robo_claw_status_s.c.o[0m
+[8.097s] [ 81%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_py.dir/rosidl_generator_py/ros2_roboclaw_driver/srv/_reset_encoders_s.c.o[0m
+[8.405s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/libros2_roboclaw_driver__rosidl_generator_py.so[0m
+[8.503s] [ 83%] Built target ros2_roboclaw_driver__rosidl_generator_py
+[8.548s] [ 86%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.551s] [ 88%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[8.555s] [ 90%] [32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.798s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.799s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.811s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.878s] [ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_c__pyext
+[8.896s] [ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_c__pyext
+[8.899s] [ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c__pyext
+[22.117s] [100%] [32m[1mLinking CXX executable ros2_roboclaw_driver_node[0m
+[23.089s] [100%] Built target ros2_roboclaw_driver_node
+[23.125s] Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+[23.304s] Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver
+[23.314s] -- Install configuration: ""
+[23.314s] -- Execute custom install script
+[23.315s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/rosidl_interfaces/ros2_roboclaw_driver
+[23.340s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__functions.h
+[23.365s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__struct.h
+[23.389s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.h
+[23.416s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/robo_claw_status.h
+[23.440s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_generator_c__visibility_control.h
+[23.467s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__functions.h
+[23.493s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__struct.h
+[23.511s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.h
+[23.524s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/reset_encoders.h
+[23.537s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/library_path.sh
+[23.562s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/library_path.dsv
+[23.577s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_fastrtps_c.h
+[23.601s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.615s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_fastrtps_c.h
+[23.642s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__builder.hpp
+[23.672s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__struct.hpp
+[23.696s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__traits.hpp
+[23.721s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/robo_claw_status.hpp
+[23.747s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__builder.hpp
+[23.774s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__struct.hpp
+[23.800s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__traits.hpp
+[23.815s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/reset_encoders.hpp
+[23.828s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_fastrtps_cpp.hpp
+[23.841s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.860s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_fastrtps_cpp.hpp
+[23.875s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_introspection_c.h
+[23.888s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.902s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_introspection_c.h
+[23.916s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_introspection_cpp.hpp
+[23.933s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_introspection_cpp.hpp
+[23.948s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/pythonpath.sh
+[23.976s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/pythonpath.dsv
+[23.991s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/PKG-INFO
+[24.003s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/SOURCES.txt
+[24.015s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/dependency_links.txt
+[24.043s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/top_level.txt
+[24.064s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/__init__.py
+[24.084s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_c.c
+[24.100s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.116s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_introspection_c.c
+[24.132s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/libros2_roboclaw_driver__rosidl_generator_py.so
+[24.147s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/__init__.py
+[24.162s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status.py
+[24.177s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status_s.c
+[24.191s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.209s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.225s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.241s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/__init__.py
+[24.258s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders.py
+[24.273s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders_s.c
+[24.290s] -- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.290s] -- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.291s] -- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.291s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/msg/RoboClawStatus.idl
+[24.306s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders.idl
+[24.320s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/msg/RoboClawStatus.msg
+[24.335s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders.srv
+[24.348s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders_Request.msg
+[24.362s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders_Response.msg
+[24.401s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver//config/motor_driver.yaml
+[24.429s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver//launch/ros2_roboclaw_driver.launch.py
+[24.445s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/ros2_roboclaw_driver/ros2_roboclaw_driver_node
+[24.462s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/package_run_dependencies/ros2_roboclaw_driver
+[24.479s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/parent_prefix_path/ros2_roboclaw_driver
+[24.492s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/ament_prefix_path.sh
+[24.506s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/ament_prefix_path.dsv
+[24.520s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/path.sh
+[24.533s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/path.dsv
+[24.547s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.bash
+[24.568s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.sh
+[24.585s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.zsh
+[24.600s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.dsv
+[24.617s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.dsv
+[24.633s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/packages/ros2_roboclaw_driver
+[24.648s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake-extras.cmake
+[24.665s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.685s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[24.698s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_targets-extras.cmake
+[24.716s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.733s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.748s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.764s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driverConfig.cmake
+[24.780s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driverConfig-version.cmake
+[24.793s] -- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.xml
+[24.807s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_c.so
+[24.808s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_c.so" to ""
+[24.809s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so
+[24.811s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[24.811s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so
+[24.813s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.813s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so
+[24.814s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so" to ""
+[24.814s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_c.so
+[24.815s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_c.so" to ""
+[24.815s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so
+[24.816s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[24.816s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_cpp.so
+[24.817s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_cpp.so" to ""
+[24.894s] Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver'...
+[24.894s] Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/__init__.py'...
+[24.894s] Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg'...
+[24.895s] Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/__init__.py'...
+[24.895s] Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status.py'...
+[24.895s] Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv'...
+[24.895s] Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/__init__.py'...
+[24.895s] Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders.py'...
+[24.900s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_py.so
+[24.901s] -- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_py.so" to ""
+[24.902s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cExport.cmake
+[24.902s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cExport-noconfig.cmake
+[24.903s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[24.903s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.904s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cppExport.cmake
+[24.905s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.905s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.906s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cExport.cmake
+[24.906s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.907s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cExport.cmake
+[24.907s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cExport-noconfig.cmake
+[24.908s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cppExport.cmake
+[24.908s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.909s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cppExport.cmake
+[24.910s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[24.910s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_pyExport.cmake
+[24.911s] -- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_pyExport-noconfig.cmake
+[24.920s] Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver

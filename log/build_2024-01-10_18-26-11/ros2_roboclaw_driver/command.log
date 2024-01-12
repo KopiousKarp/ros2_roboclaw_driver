@@ -1,0 +1,6 @@
+Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver
+Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver

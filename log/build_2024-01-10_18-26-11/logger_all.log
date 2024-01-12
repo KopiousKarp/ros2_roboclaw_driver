@@ -1,0 +1,113 @@
+[0.447s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.447s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e4cb0ca0ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e4cb1477dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e4cb1477dc0>>, mixin_verb=('build',))
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.517s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.517s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/source/ros2_roboclaw_driver'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.537s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ros2_roboclaw_driver'
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_target' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros2_roboclaw_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_roboclaw_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver', 'merge_install': False, 'path': '/source/ros2_roboclaw_driver', 'symlink_install': True, 'test_result_base': None}
+[0.578s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/source/ros2_roboclaw_driver' with build type 'ament_cmake'
+[0.582s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/source/ros2_roboclaw_driver'
+[0.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+[5.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/ros2_roboclaw_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver
+[5.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+[23.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver -- -j8 -l8
+[23.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver
+[25.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_roboclaw_driver)
+[25.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver
+[25.521s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver' for CMake module files
+[25.523s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver' for CMake config files
+[25.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_roboclaw_driver', 'cmake_prefix_path')
+[25.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.ps1'
+[25.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.dsv'
+[25.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.sh'
+[25.538s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib'
+[25.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_roboclaw_driver', 'ld_library_path_lib')
+[25.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.ps1'
+[25.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.dsv'
+[25.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.sh'
+[25.545s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/bin'
+[25.545s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/pkgconfig/ros2_roboclaw_driver.pc'
+[25.550s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/python3.10/site-packages'
+[25.551s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/bin'
+[25.555s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.ps1'
+[25.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.dsv'
+[25.559s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.sh'
+[25.561s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.bash'
+[25.563s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.zsh'
+[25.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/colcon-core/packages/ros2_roboclaw_driver)
+[25.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_roboclaw_driver)
+[25.771s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver' for CMake module files
+[25.773s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver' for CMake config files
+[25.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_roboclaw_driver', 'cmake_prefix_path')
+[25.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.ps1'
+[25.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.dsv'
+[25.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/cmake_prefix_path.sh'
+[25.782s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib'
+[25.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_roboclaw_driver', 'ld_library_path_lib')
+[25.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.ps1'
+[25.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.dsv'
+[25.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/hook/ld_library_path_lib.sh'
+[25.792s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/bin'
+[25.792s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/pkgconfig/ros2_roboclaw_driver.pc'
+[25.793s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/python3.10/site-packages'
+[25.795s] Level 1:colcon.colcon_core.environment:checking '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/bin'
+[25.802s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.ps1'
+[25.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.dsv'
+[25.805s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.sh'
+[25.806s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.bash'
+[25.807s] INFO:colcon.colcon_core.shell:Creating package script '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.zsh'
+[25.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/colcon-core/packages/ros2_roboclaw_driver)
+[25.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.809s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.830s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[25.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.831s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.831s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[25.831s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/source/ros2_roboclaw_driver/install/local_setup.ps1'
+[25.838s] INFO:colcon.colcon_core.shell:Creating prefix util module '/source/ros2_roboclaw_driver/install/_local_setup_util_ps1.py'
+[25.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/source/ros2_roboclaw_driver/install/setup.ps1'
+[25.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/source/ros2_roboclaw_driver/install/local_setup.sh'
+[25.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/source/ros2_roboclaw_driver/install/_local_setup_util_sh.py'
+[25.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/source/ros2_roboclaw_driver/install/setup.sh'
+[25.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/source/ros2_roboclaw_driver/install/local_setup.bash'
+[25.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/source/ros2_roboclaw_driver/install/setup.bash'
+[25.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/source/ros2_roboclaw_driver/install/local_setup.zsh'
+[25.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/source/ros2_roboclaw_driver/install/setup.zsh'

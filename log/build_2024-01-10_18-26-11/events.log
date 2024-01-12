@@ -1,0 +1,523 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (ros2_roboclaw_driver) JobQueued: {'identifier': 'ros2_roboclaw_driver', 'dependencies': OrderedDict()}
+[0.000310] (ros2_roboclaw_driver) JobStarted: {'identifier': 'ros2_roboclaw_driver'}
+[0.025253] (ros2_roboclaw_driver) JobProgress: {'identifier': 'ros2_roboclaw_driver', 'progress': 'cmake'}
+[0.025503] (ros2_roboclaw_driver) Command: {'cmd': ['/usr/bin/cmake', '/source/ros2_roboclaw_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver'], 'cwd': '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver', 'env': OrderedDict([('HOSTNAME', 'a82276a2f20d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098206] (-) TimerEvent: {}
+[0.198550] (-) TimerEvent: {}
+[0.298945] (-) TimerEvent: {}
+[0.339311] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.399053] (-) TimerEvent: {}
+[0.499529] (-) TimerEvent: {}
+[0.520663] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.538369] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.599703] (-) TimerEvent: {}
+[0.675748] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.691444] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.691950] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.692571] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.697443] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699790] (-) TimerEvent: {}
+[0.800184] (-) TimerEvent: {}
+[0.843406] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.863345] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.864259] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.865778] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.898856] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.900277] (-) TimerEvent: {}
+[1.000687] (-) TimerEvent: {}
+[1.101285] (-) TimerEvent: {}
+[1.174933] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.201394] (-) TimerEvent: {}
+[1.271189] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.301553] (-) TimerEvent: {}
+[1.351212] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.401682] (-) TimerEvent: {}
+[1.454170] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.468014] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.491261] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.501829] (-) TimerEvent: {}
+[1.521571] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.572013] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601998] (-) TimerEvent: {}
+[1.608569] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.702136] (-) TimerEvent: {}
+[1.761197] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.802281] (-) TimerEvent: {}
+[1.879337] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.902413] (-) TimerEvent: {}
+[1.994506] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.002553] (-) TimerEvent: {}
+[2.004227] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.102680] (-) TimerEvent: {}
+[2.203105] (-) TimerEvent: {}
+[2.232882] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.285343] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.303227] (-) TimerEvent: {}
+[2.372672] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.393842] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.403383] (-) TimerEvent: {}
+[2.503838] (-) TimerEvent: {}
+[2.523060] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.523435] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.603957] (-) TimerEvent: {}
+[2.669715] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.672092] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.704080] (-) TimerEvent: {}
+[2.804436] (-) TimerEvent: {}
+[2.865636] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.894653] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.904551] (-) TimerEvent: {}
+[3.004930] (-) TimerEvent: {}
+[3.105269] (-) TimerEvent: {}
+[3.205580] (-) TimerEvent: {}
+[3.305888] (-) TimerEvent: {}
+[3.395748] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.406002] (-) TimerEvent: {}
+[3.506338] (-) TimerEvent: {}
+[3.606750] (-) TimerEvent: {}
+[3.707193] (-) TimerEvent: {}
+[3.807589] (-) TimerEvent: {}
+[3.895523] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.907737] (-) TimerEvent: {}
+[4.008141] (-) TimerEvent: {}
+[4.093331] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.108236] (-) TimerEvent: {}
+[4.128570] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[4.134933] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.171133] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[4.171413] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.171503] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.171586] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.198958] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.208402] (-) TimerEvent: {}
+[4.257596] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.308506] (-) TimerEvent: {}
+[4.320680] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.332945] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.334263] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_cpp>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_typesupport_introspection_cpp>;/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_c;/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver/rosidl_generator_py\n'}
+[4.334627] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.348458] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.348727] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.351225] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.355593] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.358291] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.371878] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.372212] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.374089] (ros2_roboclaw_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.378977] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.408617] (-) TimerEvent: {}
+[4.442324] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[4.449343] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Build files have been written to: /source/ros2_roboclaw_driver/build/ros2_roboclaw_driver\n'}
+[4.464757] (ros2_roboclaw_driver) CommandEnded: {'returncode': 0}
+[4.465550] (ros2_roboclaw_driver) JobProgress: {'identifier': 'ros2_roboclaw_driver', 'progress': 'build'}
+[4.466440] (ros2_roboclaw_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver', '--', '-j8', '-l8'], 'cwd': '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver', 'env': OrderedDict([('HOSTNAME', 'a82276a2f20d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.508755] (-) TimerEvent: {}
+[4.535230] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.551268] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.565254] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_ros2_roboclaw_driver\n'}
+[4.608864] (-) TimerEvent: {}
+[4.709234] (-) TimerEvent: {}
+[4.809566] (-) TimerEvent: {}
+[4.898083] (ros2_roboclaw_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.899038] (ros2_roboclaw_driver) StdoutLine: {'line': b'creating ros2_roboclaw_driver.egg-info\n'}
+[4.899306] (ros2_roboclaw_driver) StdoutLine: {'line': b'writing ros2_roboclaw_driver.egg-info/PKG-INFO\n'}
+[4.899589] (ros2_roboclaw_driver) StdoutLine: {'line': b'writing dependency_links to ros2_roboclaw_driver.egg-info/dependency_links.txt\n'}
+[4.899912] (ros2_roboclaw_driver) StdoutLine: {'line': b'writing top-level names to ros2_roboclaw_driver.egg-info/top_level.txt\n'}
+[4.900120] (ros2_roboclaw_driver) StdoutLine: {'line': b"writing manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'\n"}
+[4.904234] (ros2_roboclaw_driver) StdoutLine: {'line': b"reading manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'\n"}
+[4.904966] (ros2_roboclaw_driver) StdoutLine: {'line': b"writing manifest file 'ros2_roboclaw_driver.egg-info/SOURCES.txt'\n"}
+[4.909678] (-) TimerEvent: {}
+[4.945868] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_ros2_roboclaw_driver_egg\n'}
+[5.009826] (-) TimerEvent: {}
+[5.082048] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  4%] Built target ros2_roboclaw_driver__cpp\n'}
+[5.092662] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_c.dir/rosidl_generator_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__functions.c.o\x1b[0m\n'}
+[5.095589] (ros2_roboclaw_driver) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_c.dir/rosidl_generator_c/ros2_roboclaw_driver/srv/detail/reset_encoders__functions.c.o\x1b[0m\n'}
+[5.098832] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.099128] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.099257] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.109923] (-) TimerEvent: {}
+[5.199216] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libros2_roboclaw_driver__rosidl_generator_c.so\x1b[0m\n'}
+[5.210045] (-) TimerEvent: {}
+[5.266302] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 18%] Built target ros2_roboclaw_driver__rosidl_generator_c\n'}
+[5.283889] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.287509] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.287788] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.310161] (-) TimerEvent: {}
+[5.410494] (-) TimerEvent: {}
+[5.510836] (-) TimerEvent: {}
+[5.611192] (-) TimerEvent: {}
+[5.709592] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_roboclaw_driver/msg/robo_claw_status__type_support.cpp.o\x1b[0m\n'}
+[5.713388] (-) TimerEvent: {}
+[5.719102] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_roboclaw_driver/srv/reset_encoders__type_support.cpp.o\x1b[0m\n'}
+[5.742880] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_roboclaw_driver/msg/detail/dds_fastrtps/robo_claw_status__type_support.cpp.o\x1b[0m\n'}
+[5.756358] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_roboclaw_driver/srv/detail/dds_fastrtps/reset_encoders__type_support.cpp.o\x1b[0m\n'}
+[5.783816] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.cpp.o\x1b[0m\n'}
+[5.813515] (-) TimerEvent: {}
+[5.825715] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_roboclaw_driver/msg/robo_claw_status__type_support.cpp.o\x1b[0m\n'}
+[5.857560] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.c.o\x1b[0m\n'}
+[5.903285] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_roboclaw_driver/srv/reset_encoders__type_support.cpp.o\x1b[0m\n'}
+[5.913640] (-) TimerEvent: {}
+[5.932687] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.c.o\x1b[0m\n'}
+[5.964211] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.979838] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.012255] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.013760] (-) TimerEvent: {}
+[6.087810] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 53%] Built target ros2_roboclaw_driver__rosidl_typesupport_c\n'}
+[6.096356] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 53%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_c\n'}
+[6.109044] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.cpp.o\x1b[0m\n'}
+[6.113914] (-) TimerEvent: {}
+[6.121122] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support_c.cpp.o\x1b[0m\n'}
+[6.215392] (-) TimerEvent: {}
+[6.294601] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.315769] (-) TimerEvent: {}
+[6.409854] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 60%] Built target ros2_roboclaw_driver__rosidl_typesupport_cpp\n'}
+[6.416846] (-) TimerEvent: {}
+[6.462450] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/motor_driver.cpp.o\x1b[0m\n'}
+[6.468863] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/motor_driver_node.cpp.o\x1b[0m\n'}
+[6.518693] (-) TimerEvent: {}
+[6.619103] (-) TimerEvent: {}
+[6.654544] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros2_roboclaw_driver_node.dir/src/roboclaw.cpp.o\x1b[0m\n'}
+[6.719245] (-) TimerEvent: {}
+[6.731844] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.819408] (-) TimerEvent: {}
+[6.827124] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.912021] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.921740] (-) TimerEvent: {}
+[6.926277] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[7.015897] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c\n'}
+[7.021873] (-) TimerEvent: {}
+[7.041208] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 74%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_cpp\n'}
+[7.077841] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 74%] Built target ros2_roboclaw_driver\n'}
+[7.118940] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.122016] (-) TimerEvent: {}
+[7.222409] (-) TimerEvent: {}
+[7.322818] (-) TimerEvent: {}
+[7.423252] (-) TimerEvent: {}
+[7.523723] (-) TimerEvent: {}
+[7.624083] (-) TimerEvent: {}
+[7.724440] (-) TimerEvent: {}
+[7.824820] (-) TimerEvent: {}
+[7.925274] (-) TimerEvent: {}
+[8.026923] (-) TimerEvent: {}
+[8.054809] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 76%] Built target ros2_roboclaw_driver__py\n'}
+[8.092447] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_py.dir/rosidl_generator_py/ros2_roboclaw_driver/msg/_robo_claw_status_s.c.o\x1b[0m\n'}
+[8.097557] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_generator_py.dir/rosidl_generator_py/ros2_roboclaw_driver/srv/_reset_encoders_s.c.o\x1b[0m\n'}
+[8.127027] (-) TimerEvent: {}
+[8.227487] (-) TimerEvent: {}
+[8.327941] (-) TimerEvent: {}
+[8.405414] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/libros2_roboclaw_driver__rosidl_generator_py.so\x1b[0m\n'}
+[8.428066] (-) TimerEvent: {}
+[8.503448] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 83%] Built target ros2_roboclaw_driver__rosidl_generator_py\n'}
+[8.528194] (-) TimerEvent: {}
+[8.549072] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.551907] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.555783] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.628342] (-) TimerEvent: {}
+[8.728873] (-) TimerEvent: {}
+[8.798369] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.799437] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.811835] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.829134] (-) TimerEvent: {}
+[8.878124] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[8.897007] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_c__pyext\n'}
+[8.899202] (ros2_roboclaw_driver) StdoutLine: {'line': b'[ 97%] Built target ros2_roboclaw_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.929269] (-) TimerEvent: {}
+[9.029652] (-) TimerEvent: {}
+[9.130098] (-) TimerEvent: {}
+[9.230583] (-) TimerEvent: {}
+[9.330988] (-) TimerEvent: {}
+[9.431411] (-) TimerEvent: {}
+[9.531896] (-) TimerEvent: {}
+[9.632354] (-) TimerEvent: {}
+[9.733096] (-) TimerEvent: {}
+[9.833550] (-) TimerEvent: {}
+[9.934014] (-) TimerEvent: {}
+[10.034466] (-) TimerEvent: {}
+[10.134886] (-) TimerEvent: {}
+[10.235287] (-) TimerEvent: {}
+[10.335715] (-) TimerEvent: {}
+[10.436114] (-) TimerEvent: {}
+[10.536511] (-) TimerEvent: {}
+[10.636899] (-) TimerEvent: {}
+[10.737352] (-) TimerEvent: {}
+[10.837773] (-) TimerEvent: {}
+[10.938222] (-) TimerEvent: {}
+[11.038685] (-) TimerEvent: {}
+[11.139113] (-) TimerEvent: {}
+[11.239519] (-) TimerEvent: {}
+[11.339936] (-) TimerEvent: {}
+[11.440324] (-) TimerEvent: {}
+[11.540723] (-) TimerEvent: {}
+[11.641182] (-) TimerEvent: {}
+[11.741651] (-) TimerEvent: {}
+[11.842093] (-) TimerEvent: {}
+[11.942610] (-) TimerEvent: {}
+[12.043186] (-) TimerEvent: {}
+[12.143630] (-) TimerEvent: {}
+[12.244119] (-) TimerEvent: {}
+[12.344598] (-) TimerEvent: {}
+[12.445041] (-) TimerEvent: {}
+[12.545499] (-) TimerEvent: {}
+[12.645902] (-) TimerEvent: {}
+[12.746355] (-) TimerEvent: {}
+[12.846879] (-) TimerEvent: {}
+[12.947317] (-) TimerEvent: {}
+[13.047765] (-) TimerEvent: {}
+[13.148207] (-) TimerEvent: {}
+[13.248594] (-) TimerEvent: {}
+[13.348983] (-) TimerEvent: {}
+[13.449383] (-) TimerEvent: {}
+[13.549792] (-) TimerEvent: {}
+[13.650212] (-) TimerEvent: {}
+[13.750603] (-) TimerEvent: {}
+[13.851020] (-) TimerEvent: {}
+[13.951401] (-) TimerEvent: {}
+[14.051752] (-) TimerEvent: {}
+[14.152135] (-) TimerEvent: {}
+[14.252517] (-) TimerEvent: {}
+[14.352905] (-) TimerEvent: {}
+[14.453286] (-) TimerEvent: {}
+[14.553670] (-) TimerEvent: {}
+[14.654149] (-) TimerEvent: {}
+[14.754595] (-) TimerEvent: {}
+[14.855064] (-) TimerEvent: {}
+[14.955453] (-) TimerEvent: {}
+[15.055885] (-) TimerEvent: {}
+[15.156246] (-) TimerEvent: {}
+[15.256613] (-) TimerEvent: {}
+[15.357054] (-) TimerEvent: {}
+[15.457550] (-) TimerEvent: {}
+[15.557995] (-) TimerEvent: {}
+[15.658441] (-) TimerEvent: {}
+[15.758907] (-) TimerEvent: {}
+[15.859369] (-) TimerEvent: {}
+[15.959869] (-) TimerEvent: {}
+[16.060319] (-) TimerEvent: {}
+[16.160755] (-) TimerEvent: {}
+[16.261165] (-) TimerEvent: {}
+[16.361553] (-) TimerEvent: {}
+[16.461962] (-) TimerEvent: {}
+[16.562369] (-) TimerEvent: {}
+[16.662810] (-) TimerEvent: {}
+[16.763288] (-) TimerEvent: {}
+[16.863720] (-) TimerEvent: {}
+[16.964119] (-) TimerEvent: {}
+[17.064509] (-) TimerEvent: {}
+[17.164906] (-) TimerEvent: {}
+[17.265306] (-) TimerEvent: {}
+[17.365693] (-) TimerEvent: {}
+[17.466093] (-) TimerEvent: {}
+[17.566495] (-) TimerEvent: {}
+[17.666898] (-) TimerEvent: {}
+[17.767286] (-) TimerEvent: {}
+[17.867696] (-) TimerEvent: {}
+[17.968075] (-) TimerEvent: {}
+[18.068471] (-) TimerEvent: {}
+[18.168863] (-) TimerEvent: {}
+[18.269254] (-) TimerEvent: {}
+[18.369639] (-) TimerEvent: {}
+[18.470031] (-) TimerEvent: {}
+[18.570421] (-) TimerEvent: {}
+[18.670802] (-) TimerEvent: {}
+[18.771191] (-) TimerEvent: {}
+[18.871589] (-) TimerEvent: {}
+[18.972014] (-) TimerEvent: {}
+[19.072411] (-) TimerEvent: {}
+[19.172802] (-) TimerEvent: {}
+[19.273190] (-) TimerEvent: {}
+[19.373570] (-) TimerEvent: {}
+[19.473965] (-) TimerEvent: {}
+[19.574351] (-) TimerEvent: {}
+[19.674754] (-) TimerEvent: {}
+[19.775137] (-) TimerEvent: {}
+[19.875524] (-) TimerEvent: {}
+[19.976066] (-) TimerEvent: {}
+[20.076450] (-) TimerEvent: {}
+[20.176831] (-) TimerEvent: {}
+[20.277232] (-) TimerEvent: {}
+[20.377622] (-) TimerEvent: {}
+[20.478012] (-) TimerEvent: {}
+[20.578395] (-) TimerEvent: {}
+[20.678838] (-) TimerEvent: {}
+[20.779266] (-) TimerEvent: {}
+[20.880711] (-) TimerEvent: {}
+[20.981229] (-) TimerEvent: {}
+[21.081636] (-) TimerEvent: {}
+[21.182038] (-) TimerEvent: {}
+[21.282414] (-) TimerEvent: {}
+[21.382817] (-) TimerEvent: {}
+[21.483189] (-) TimerEvent: {}
+[21.583563] (-) TimerEvent: {}
+[21.683999] (-) TimerEvent: {}
+[21.784402] (-) TimerEvent: {}
+[21.884793] (-) TimerEvent: {}
+[21.985199] (-) TimerEvent: {}
+[22.085961] (-) TimerEvent: {}
+[22.117036] (ros2_roboclaw_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_roboclaw_driver_node\x1b[0m\n'}
+[22.186091] (-) TimerEvent: {}
+[22.286516] (-) TimerEvent: {}
+[22.386941] (-) TimerEvent: {}
+[22.487377] (-) TimerEvent: {}
+[22.587810] (-) TimerEvent: {}
+[22.688211] (-) TimerEvent: {}
+[22.788583] (-) TimerEvent: {}
+[22.888995] (-) TimerEvent: {}
+[22.989382] (-) TimerEvent: {}
+[23.089463] (ros2_roboclaw_driver) StdoutLine: {'line': b'[100%] Built target ros2_roboclaw_driver_node\n'}
+[23.089789] (-) TimerEvent: {}
+[23.125554] (ros2_roboclaw_driver) CommandEnded: {'returncode': 0}
+[23.189922] (-) TimerEvent: {}
+[23.288888] (ros2_roboclaw_driver) JobProgress: {'identifier': 'ros2_roboclaw_driver', 'progress': 'install'}
+[23.289989] (-) TimerEvent: {}
+[23.303256] (ros2_roboclaw_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver'], 'cwd': '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver', 'env': OrderedDict([('HOSTNAME', 'a82276a2f20d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/ros2_roboclaw_driver/build/ros2_roboclaw_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.314305] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.314982] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.315448] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/rosidl_interfaces/ros2_roboclaw_driver\n'}
+[23.340472] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__functions.h\n'}
+[23.365188] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__struct.h\n'}
+[23.389886] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__type_support.h\n'}
+[23.390240] (-) TimerEvent: {}
+[23.416549] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/robo_claw_status.h\n'}
+[23.440998] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.468081] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__functions.h\n'}
+[23.490359] (-) TimerEvent: {}
+[23.493536] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__struct.h\n'}
+[23.511194] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__type_support.h\n'}
+[23.524923] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/reset_encoders.h\n'}
+[23.537877] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/library_path.sh\n'}
+[23.562313] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/library_path.dsv\n'}
+[23.578039] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_fastrtps_c.h\n'}
+[23.590503] (-) TimerEvent: {}
+[23.601562] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.615168] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_fastrtps_c.h\n'}
+[23.642104] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__builder.hpp\n'}
+[23.672568] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__struct.hpp\n'}
+[23.690647] (-) TimerEvent: {}
+[23.696605] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__traits.hpp\n'}
+[23.721067] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/robo_claw_status.hpp\n'}
+[23.747686] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__builder.hpp\n'}
+[23.774297] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__struct.hpp\n'}
+[23.790746] (-) TimerEvent: {}
+[23.800273] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__traits.hpp\n'}
+[23.815316] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/reset_encoders.hpp\n'}
+[23.829138] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.841820] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.860230] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.876124] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_introspection_c.h\n'}
+[23.888858] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.890826] (-) TimerEvent: {}
+[23.902907] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_introspection_c.h\n'}
+[23.916523] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/msg/detail/robo_claw_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.933150] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/include/ros2_roboclaw_driver/ros2_roboclaw_driver/srv/detail/reset_encoders__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.948302] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/pythonpath.sh\n'}
+[23.976719] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/pythonpath.dsv\n'}
+[23.990967] (-) TimerEvent: {}
+[23.991304] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.003697] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.015250] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.043175] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.064198] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/__init__.py\n'}
+[24.085022] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_c.c\n'}
+[24.091064] (-) TimerEvent: {}
+[24.100275] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.116067] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/_ros2_roboclaw_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.132999] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/libros2_roboclaw_driver__rosidl_generator_py.so\n'}
+[24.147608] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/__init__.py\n'}
+[24.163025] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status.py\n'}
+[24.177747] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status_s.c\n'}
+[24.191216] (-) TimerEvent: {}
+[24.192012] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.209285] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.225147] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.241835] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/__init__.py\n'}
+[24.259059] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders.py\n'}
+[24.273578] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders_s.c\n'}
+[24.290258] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.290881] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.291258] (-) TimerEvent: {}
+[24.291551] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/ros2_roboclaw_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.291987] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/msg/RoboClawStatus.idl\n'}
+[24.306241] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders.idl\n'}
+[24.320273] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/msg/RoboClawStatus.msg\n'}
+[24.335319] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders.srv\n'}
+[24.348223] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders_Request.msg\n'}
+[24.362243] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/srv/ResetEncoders_Response.msg\n'}
+[24.391384] (-) TimerEvent: {}
+[24.401243] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver//config/motor_driver.yaml\n'}
+[24.429406] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver//launch/ros2_roboclaw_driver.launch.py\n'}
+[24.445472] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/ros2_roboclaw_driver/ros2_roboclaw_driver_node\n'}
+[24.462565] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/package_run_dependencies/ros2_roboclaw_driver\n'}
+[24.479280] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/parent_prefix_path/ros2_roboclaw_driver\n'}
+[24.491514] (-) TimerEvent: {}
+[24.492954] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/ament_prefix_path.sh\n'}
+[24.506424] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/ament_prefix_path.dsv\n'}
+[24.520370] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/path.sh\n'}
+[24.533535] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/environment/path.dsv\n'}
+[24.547539] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.bash\n'}
+[24.568595] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.sh\n'}
+[24.585133] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.zsh\n'}
+[24.591588] (-) TimerEvent: {}
+[24.601027] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/local_setup.dsv\n'}
+[24.617266] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.dsv\n'}
+[24.633299] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ament_index/resource_index/packages/ros2_roboclaw_driver\n'}
+[24.648890] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[24.665097] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.685402] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.691760] (-) TimerEvent: {}
+[24.698761] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.716430] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.733190] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.748695] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.764975] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driverConfig.cmake\n'}
+[24.780608] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driverConfig-version.cmake\n'}
+[24.791883] (-) TimerEvent: {}
+[24.793856] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Symlinking: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/package.xml\n'}
+[24.807630] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_c.so\n'}
+[24.809163] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_c.so" to ""\n'}
+[24.809370] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[24.811306] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.811490] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.813418] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.813608] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so\n'}
+[24.814530] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.814676] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_c.so\n'}
+[24.815421] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_c.so" to ""\n'}
+[24.815571] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[24.816637] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.816896] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_cpp.so\n'}
+[24.817558] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[24.892003] (-) TimerEvent: {}
+[24.894727] (ros2_roboclaw_driver) StdoutLine: {'line': b"Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver'...\n"}
+[24.895004] (ros2_roboclaw_driver) StdoutLine: {'line': b"Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/__init__.py'...\n"}
+[24.895161] (ros2_roboclaw_driver) StdoutLine: {'line': b"Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg'...\n"}
+[24.895307] (ros2_roboclaw_driver) StdoutLine: {'line': b"Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/__init__.py'...\n"}
+[24.895452] (ros2_roboclaw_driver) StdoutLine: {'line': b"Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/msg/_robo_claw_status.py'...\n"}
+[24.895599] (ros2_roboclaw_driver) StdoutLine: {'line': b"Listing '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv'...\n"}
+[24.895803] (ros2_roboclaw_driver) StdoutLine: {'line': b"Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/__init__.py'...\n"}
+[24.895957] (ros2_roboclaw_driver) StdoutLine: {'line': b"Compiling '/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/local/lib/python3.10/dist-packages/ros2_roboclaw_driver/srv/_reset_encoders.py'...\n"}
+[24.900377] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_py.so\n'}
+[24.902022] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Set runtime path of "/source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/lib/libros2_roboclaw_driver__rosidl_generator_py.so" to ""\n'}
+[24.902390] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cExport.cmake\n'}
+[24.902904] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.903458] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.904029] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.904607] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_cppExport.cmake\n'}
+[24.905229] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.905814] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.906424] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.907012] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.907587] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cExport.cmake\n'}
+[24.908122] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.908651] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.909185] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.909761] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cppExport.cmake\n'}
+[24.910306] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/ros2_roboclaw_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.910941] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_pyExport.cmake\n'}
+[24.911564] (ros2_roboclaw_driver) StdoutLine: {'line': b'-- Installing: /source/ros2_roboclaw_driver/install/ros2_roboclaw_driver/share/ros2_roboclaw_driver/cmake/export_ros2_roboclaw_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.919313] (ros2_roboclaw_driver) CommandEnded: {'returncode': 0}
+[24.992112] (-) TimerEvent: {}
+[25.092493] (-) TimerEvent: {}
+[25.195202] (-) TimerEvent: {}
+[25.225452] (ros2_roboclaw_driver) JobEnded: {'identifier': 'ros2_roboclaw_driver', 'rc': 0}
+[25.226739] (-) EventReactorShutdown: {}
