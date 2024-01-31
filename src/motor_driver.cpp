@@ -16,7 +16,7 @@
 #include "roboclaw.h"
 
 MotorDriver::MotorDriver()
-    : Node("motor_driver_node"),
+    : Node("motor_driver_node"), 
       device_name_("foo_bar"),
       wheel_radius_(0.10169),
       wheel_separation_(0.345) {
@@ -77,7 +77,7 @@ void MotorDriver::cmdVelCallback(
     }
   }
 }
-
+//sets all the parameters here!!!
 void MotorDriver::onInit(rclcpp::Node::SharedPtr node) {
   node_ = node;
   this->get_parameter("accel_quad_pulses_per_second",

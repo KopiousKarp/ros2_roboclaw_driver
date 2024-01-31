@@ -31,8 +31,9 @@ motor_driver_node:
 
     # The maximum expected current (in amps) for both motors.
     # Used just to signal warnings.
-    m1_max_current: 6.0
-    m2_max_current: 6.0
+    m1_max_current: 15
+    m2_max_current: 15
+  
 
     # Rate limiting commands. The driver will clip any value
     # exceeding these limits.
@@ -54,13 +55,11 @@ motor_driver_node:
     # Based upon your particular motor gearing and encoders.
     # These values are used to scale cmd_vel commands 
     # and encoder values to motor commands and odometry, respectfully.
-    # --- BarrelBot
     quad_pulses_per_meter: 10700
     quad_pulses_per_revolution: 4385
     
     # Based upon your particular robot model.
     # The wheel separation and radius, in meters.
-    # --- BarrelBot
     wheel_radius: 0.065
     wheel_separation: 0.29
     
